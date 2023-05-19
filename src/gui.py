@@ -7,8 +7,8 @@ class Userinterface:
     def __init__(self, screen):
         self.screen = screen
         self.username = None
-        self.big_font = pygame.font.SysFont("Verdana", 25)
-        self.little_font = pygame.font.SysFont("Verdana", 15)
+        self.big_font = pygame.font.SysFont("Verdana", 30)
+        self.little_font = pygame.font.SysFont("Verdana", 18)
 
     def start_screen(self):
         self.screen_width, self.screen_height = self.screen.get_width(), self.screen.get_height() 
@@ -19,9 +19,9 @@ class Userinterface:
         self.screen.blit(welcome, (self.screen_width / 2 - welcome.get_width() / 2, 
                                    self.screen_height / 2 - 100))
         self.screen.blit(start_game, (self.screen_width / 2 - start_game.get_width() / 2, 
-                                   self.screen_height / 2))
+                                      self.screen_height / 2))
         self.screen.blit(scoreboard, (self.screen_width / 2 - scoreboard.get_width() / 2, 
-                                   self.screen_height / 2 + 100))
+                                      self.screen_height / 2 + 100))
         
     
     def game_screen(self):
