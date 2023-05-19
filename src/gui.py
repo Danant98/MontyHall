@@ -1,9 +1,4 @@
-
-__author__ = "Daniel Elisabethsønn Antonsen"
-
 import pygame
-
-
 
 class Userinterface:
 
