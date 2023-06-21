@@ -2,7 +2,7 @@ import pygame
 
 class Userinterface:
 
-    COLOR = '#FFFFFF'
+    WHITE = '#FFFFFF'
 
     def __init__(self, screen):
         self.screen = screen
