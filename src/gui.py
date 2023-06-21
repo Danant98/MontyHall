@@ -13,9 +13,9 @@ class Userinterface:
     def start_screen(self):
         self.screen_width, self.screen_height = self.screen.get_width(), self.screen.get_height() 
         self.screen.fill('#335555')
-        welcome = self.big_font.render("WELCOMME TO MONTY HALL GAME", True, self.COLOR)
-        start_game = self.little_font.render("START GAME", True, self.COLOR)
-        scoreboard = self.little_font.render("SCOREBOARD", True, self.COLOR)
+        welcome = self.big_font.render("WELCOMME TO MONTY HALL GAME", True, self.WHITE)
+        start_game = self.little_font.render("START GAME", True, self.WHITE)
+        scoreboard = self.little_font.render("SCOREBOARD", True, self.WHITE)
         self.screen.blit(welcome, (self.screen_width / 2 - welcome.get_width() / 2, 
                                    self.screen_height / 2 - 100))
         self.screen.blit(start_game, (self.screen_width / 2 - start_game.get_width() / 2, 
